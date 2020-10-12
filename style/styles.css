@@ -12,9 +12,9 @@
 	justify-content: space-between;
 	align-items: center;
 	background: #38383e;
-	padding-left: 10px;
-	padding-right: 10px;
 	max-height: 15vh;
+	position: fixed;
+	width: 100%;
 }
 
 .header-profile {
@@ -65,6 +65,10 @@
 .menu-item {
 	display: inline;
 	padding: 10px;
+}
+
+.main {
+	margin-top: 10vh;
 }
 
 .about {
