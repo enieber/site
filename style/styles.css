@@ -4,7 +4,6 @@
 	text-align: center;
 	padding: 2em;
 	align-items: stretch;
-	font-size: 18px;
 }
 
 .header {
@@ -30,13 +29,18 @@
 	background: #38383e;
 }
 
-@media screen and (min-width: 450px) {
-	/* .header-profile {
-		width: 25%;
+@media screen and (max-width: 600px) {
+	.header-profile-title {
+		display: none;
 	}
-	.header-menu {
-		width: 75%;
-	} */
+
+
+.header-profile-image {
+	max-width: 8vw;
+	max-height: 10vh;
+	margin-right: 10px;
+	opacity: .5;
+}
 }
 
 .menu-item > a{
@@ -46,7 +50,7 @@
 
 .menu-item {
 	display: inline;
-	padding: 2em;
+	padding: 10px;
 }
 
 
