@@ -46,6 +46,7 @@
 	color: #fff;
 	font-size: 1.5em;
 	text-align: center;
+	font-weight: bold;
 }
 
 .header-profile-image {
@@ -58,6 +59,7 @@
 .menu-item > a{
 	color: #fff;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 .menu-item {
@@ -83,12 +85,39 @@
 }
 
 .about-title {
+	font-weight: bold;
 	font-size: 2rem;
 }
 
 .about-description {
 	margin-top: 10px;
 	font-size: 1.5rem;
+}
+
+.experiencie {
+	background: #38383e;
+	color: #FFF;
+	padding: 20px;
+}
+
+.experiencie-title {
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.experiencie-locate {
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.experiencie-item {
+	margin-top: 50px;
+}
+
+.experiencie-description {
+	padding-top: 10px;
+	font-size: 1rem;
 }
 
 .footer {
