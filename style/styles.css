@@ -1,18 +1,10 @@
-.main-description {
-	color: #fff;
-	background: #333;
-	text-align: center;
-	padding: 2em;
-	align-items: stretch;
-}
-
 .header {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	background: #484D6D;
-	max-height: 15vh;
+	background: #fafafa;
+	max-height: 20vh;
 	position: fixed;
 	width: 100%;
 }
@@ -22,60 +14,56 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	padding-left: 10px;
 }
 
 .header-menu {
 	text-align: center;
-	background: #484D6D;
-}
-
-@media screen and (max-width: 600px) {
-	.header-profile-title {
-		display: none;
-	}
-
-	.header-profile-image {
-		max-width: 8vw;
-		max-height: 10vh;
-		margin-right: 10px;
-		opacity: .5;
-	}
+	background: #fafafa;
 }
 
 .header-profile-title {
-	color: #fff;
-	font-size: 1.5em;
+	color: #484D6D;
+	padding-left: 10px;
+	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 }
 
 .header-profile-image {
-	max-width: 10vw;
+	max-width: 15vw;
 	max-height: 15vh;
-	margin-right: 10px;
-	opacity: .5;
-}
-
-.menu-item > a{
-	color: #fff;
-	text-decoration: none;
-	font-weight: bold;
+	padding: 10px;
 }
 
 .menu-item {
 	display: inline;
 	padding: 10px;
+	color: #484D6D;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 .main {
-	margin-top: 10vh;
+	padding-top: 10vh;
+	color: #fafafa;	
+}
+
+.main-description {
+	color: #fafafa;
+	background: #333;
+	text-align: center;
+	padding: 2em;
+	align-items: stretch;
 }
 
 .about {
 	min-height: 40vh;
-	margin: 20px;
+	padding: 20px;
 	display: flex;
 	align-items: center;
+	color: #484D6D;
+	background: #fafafa;	
 }
 
 .about-image {
@@ -94,13 +82,13 @@
 }
 
 .about-description {
-	margin-top: 10px;
+	padding-top: 10px;
 	font-size: 1.5rem;
 }
 
 .experiencie {
 	background: #484D6D;
-	color: #FFF;
+	color: #fafafa;
 	padding: 20px;
 }
 
@@ -126,7 +114,7 @@
 
 .projects {
 	padding: 20px;
-	background: #FFF;
+	background: #fafafa;
 	color: #484D6D;
 	min-height: 40vh;
 }
@@ -137,7 +125,7 @@
 
 .footer {
 	background: #484D6D;
-	color: #fff;
+	color: #fafafa;
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -155,4 +143,27 @@
 .articles-items {
 	width: 250px;
 	margin: 2em;
+}
+
+.projects-item-image {
+	width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+	.header {
+		max-height: 25vh;
+	}
+
+	.header-profile-title {
+		display: none;
+	}
+
+	.header-profile-image {
+		max-width: 18vw;
+		max-height: 18vh;
+	}
+	
+	.main {
+		padding-top: 15vh;
+	}
 }
