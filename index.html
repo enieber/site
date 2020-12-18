@@ -25,6 +25,7 @@
 			<a class="menu-item" href="#about">About</a>
 			<a class="menu-item" href="#experiencie">Experience</a>
 			<a class="menu-item" href="#projects">Projects</a>
+			<a class="menu-item" href="#projects">re-newsletter</a>
 		</nav>
 	</header>
 	<main class="main">
@@ -37,7 +38,7 @@
 			</div>
 		</section>
 		<section id="experiencie" class="experiencie">
-			<h2  class="experiencie-title">Experiences</h2>
+			<h2 class="experiencie-title">Experiences</h2>
 			<article class="experiencie-item">
 				<h3 class="experiencie-locate">Mobile Developer - at StartSe</h3>
 				<p class="experiencie-description">
@@ -133,6 +134,33 @@
 					<img class="projects-item-image" src="image/podcast.png" alt="project podcast-list in github" />
 				</a>
 			</article>
+		</section>
+		<section id="re-newsletter" class="newletter">
+			<h2 class="newletter-title">ReNewsletter</h2>
+			<p class="newletter-description">Re Newsletter was created to bring together news or nice findings about ReasonML, OCaml and ReScript.</p>
+			<div id="revue-embed">
+				<form action="https://www.getrevue.co/profile/re-newsletter/add_subscriber" method="post"
+					id="revue-form" name="revue-form" target="_blank">
+					<div class="revue-form-group">
+						<label for="member_email">Email address</label>
+						<input class="revue-form-field" placeholder="Your email address..." type="email"
+							name="member[email]" id="member_email">
+					</div>
+					<div class="revue-form-group">
+						<label for="member_first_name">First name <span class="optional">(Optional)</span></label>
+						<input class="revue-form-field" placeholder="First name... (Optional)" type="text"
+							name="member[first_name]" id="member_first_name">
+					</div>
+					<div class="revue-form-group">
+						<label for="member_last_name">Last name <span class="optional">(Optional)</span></label>
+						<input class="revue-form-field" placeholder="Last name... (Optional)" type="text"
+							name="member[last_name]" id="member_last_name">
+					</div>
+					<div class="revue-form-actions">
+						<input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
+					</div>
+				</form>
+			</div>
 		</section>
 	</main>
 	<footer class="footer">
